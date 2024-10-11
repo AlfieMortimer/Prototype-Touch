@@ -1,0 +1,34 @@
+{
+    "name": "Joystick",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "c23576ab-4d73-462e-b190-d431a11d56dc",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1bc8c603-6e86-4ee1-a796-9fad2c834744",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "615200f4-7128-4887-93e9-2f887559b8cf",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
